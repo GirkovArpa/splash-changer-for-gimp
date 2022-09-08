@@ -1,0 +1,40 @@
+@set content {
+  :root {
+    width: *; 
+    height: *;
+    padding: 1em;
+    flow: vertical;
+    border-spacing: 0.5em;
+  }
+
+  label {
+    width: *;
+    flow: horizontal;
+    border-spacing: 0.5em;
+    vertical-align: middle;
+  }
+
+  label > * {
+    vertical-align: middle;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: Arial;
+  }
+
+  #directory, #change {
+    width: *;
+  }
+
+  [readonly] {
+    background: #ddd;
+  }
+
+  #splash {
+    width: *;
+    height: *;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+}
